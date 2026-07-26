@@ -1,0 +1,34 @@
+# Display the weekday for every order.
+# Display all weekend orders.
+# Display orders placed in Quarter 1.
+# Display orders placed in Week 10.
+# Find total sales by year.
+# Find total sales month-wise.
+# Find total profit month-wise.
+# Find number of orders each month.
+# Find average sales by quarter.
+# Find total sales by weekday.
+# Find total profit by weekday.
+# Find total orders in each quarter.
+# Find total quantity sold month-wise.
+# Find average discount by month.
+# Find total sales in 2023.
+# Find total sales in January.
+# Find total sales during weekends.
+# Show months where sales exceeded ₹31000000.
+# Show quarters where profit exceeded ₹27000000.
+# Show weekdays having more than 1100 orders.
+# Display the month having highest sales.
+# Display the weekday with maximum number of orders.
+# Which month generated the highest revenue?
+# Which quarter had the lowest profit?
+# Are weekend sales higher than weekday sales?
+# Which month has the highest average order value?
+# Which weekday receives the most customer orders?
+# Which quarter has the highest number of cancelled orders?
+# Which month has the highest average discount?
+# During which month are the most Electronics products sold?
+# Which quarter generated the highest profit margin?
+# Which month should management target for promotional campaigns based on the lowest sales?
+
+

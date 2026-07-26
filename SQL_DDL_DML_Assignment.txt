@@ -1,0 +1,81 @@
+📘 MySQL Assignment – 1
+Topic: CREATE, ALTER & INSERT
+Objective
+
+Create a database for an Online Retail Store and perform various DDL and DML operations.
+
+Instructions
+
+Part 1: Create Database
+CREATE DATABASE Retail_Store;
+USE Retail_Store;
+Part 2: Create Table
+
+Create a table named CUSTOMERS with the following structure.
+
+Column	Data Type
+Customer_ID	INT
+Customer_Name	VARCHAR(100)
+Gender	CHAR(1)
+Age	INT
+City	VARCHAR(50)
+Phone	VARCHAR(15)
+After creating the table, perform these ALTER operations.
+Task 1:Add a new column, Email VARCHAR(100)
+Task 2: Add another column, Registration_Date DATE
+Task 3: Modify Increase Customer_Name size from VARCHAR(100) to VARCHAR(150)
+Task 4: Rename column Phone to Mobile_Number
+Task 5: Add a new column Membership_Type VARCHAR(20)
+Task 6: Drop the column Gender
+Task 7:  Add a new column Gender CHAR(1)
+
+Final Table Structure
+Customer_ID
+Customer_Name
+Age
+City
+Mobile_Number
+Email
+Registration_Date
+Membership_Type
+Gender
+
+Part 3: Insert Records
+Insert the following records.
+
+| Customer_ID | Customer_Name | Age | City      | Mobile_Number | Email                                       | Registration_Date | Membership_Type | Gender |
+| ----------- | ------------- | --- | --------- | ------------- | ------------------------------------------- | ----------------- | --------------- | ------ |
+| 101         | Rahul Sharma  | 28  | Hyderabad | 9876543210    | [rahul@gmail.com](mailto:rahul@gmail.com)   | 2025-01-12        | Gold            | M      |
+| 102         | Sneha Reddy   | 25  | Bangalore | 9876543211    | [sneha@gmail.com](mailto:sneha@gmail.com)   | 2025-02-20        | Silver          | F      |
+| 103         | Amit Verma    | 31  | Chennai   | 9876543212    | [amit@gmail.com](mailto:amit@gmail.com)     | 2025-03-15        | Gold            | M      |
+| 104         | Priya Singh   | 29  | Pune      | 9876543213    | [priya@gmail.com](mailto:priya@gmail.com)   | 2025-01-08        | Platinum        | F      |
+| 105         | Kiran Kumar   | 35  | Mumbai    | 9876543214    | [kiran@gmail.com](mailto:kiran@gmail.com)   | 2025-04-11        | Silver          | M      |
+| 106         | Anjali Gupta  | 24  | Delhi     | 9876543215    | [anjali@gmail.com](mailto:anjali@gmail.com) | 2025-05-06        | Gold            | F      |
+| 107         | Rohit Patel   | 30  | Ahmedabad | 9876543216    | [rohit@gmail.com](mailto:rohit@gmail.com)   | 2025-06-18        | Bronze          | M      |
+| 108         | Megha Nair    | 27  | Kochi     | 9876543217    | [megha@gmail.com](mailto:megha@gmail.com)   | 2025-02-25        | Gold            | F      |
+| 109         | Arjun Rao     | 32  | Hyderabad | 9876543218    | [arjun@gmail.com](mailto:arjun@gmail.com)   | 2025-07-01        | Platinum        | M      |
+| 110         | Pooja Mehta   | 26  | Jaipur    | 9876543219    | [pooja@gmail.com](mailto:pooja@gmail.com)   | 2025-04-19        | Silver          | F      |
+
+Part 4: Verification
+Write SQL queries to verify the following.
+Display all records from the table.
+Display the table structure.
+Display only the Customer_Name and City columns.
+
+Create another table named PRODUCTS.
+Columns:
+Product_ID	INT
+Product_Name	VARCHAR(100)
+Category	VARCHAR(50)
+Price	DECIMAL(10,2)
+Stock	INT
+
+Then perform the following:
+
+Add a column Brand.
+Modify Price to DECIMAL(12,2).
+Rename Stock to Available_Stock.
+Add a column Launch_Date.
+Insert 10 product records of your choice.
+Display all records.
+Submission Requirements
