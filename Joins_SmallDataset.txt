@@ -1,0 +1,26 @@
+CREATE TABLE Departments (
+    Dept_ID VARCHAR(5) ,
+    Department VARCHAR(50) 
+    
+);
+
+INSERT INTO Departments
+VALUES
+('D1','HR'),
+('D2','Finance'),
+('D4','IT'),
+('D6','Marketing');
+
+CREATE TABLE Employees (
+    Emp_ID INT ,
+    Employee VARCHAR(50) ,
+    Dept_ID VARCHAR(5)
+);
+
+INSERT INTO Employees
+VALUES
+(101,'Rahul','D1'),
+(102,'Priya','D2'),
+(103,'Amit','D3'),
+(104,'Sneha','D4'),
+(105,'Kiran','D5');
