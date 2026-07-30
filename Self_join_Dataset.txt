@@ -1,0 +1,14 @@
+CREATE TABLE Employees_SELF (
+    Emp_ID INT ,
+    Employee VARCHAR(50) ,
+    Manager_ID INT 
+    
+);
+
+INSERT INTO Employees_SELF (Emp_ID, Employee, Manager_ID)
+VALUES
+(101, 'Rahul', NULL),
+(102, 'Priya', 101),
+(103, 'Amit', 101),
+(104, 'Sneha', 102),
+(105, 'Kiran', 103);

@@ -1,0 +1,17 @@
+sale_id,order_date,customer_name,region,product_name,category,quantity,price,sales
+1,05-01-2026,Priya,South,Laptop,Electronics,1,75000,75000
+2,08-01-2026,Rahul,South,Mouse,Electronics,2,1200,2400
+3,10-01-2026,Amit,North,Laptop,Electronics,1,72000,72000
+4,12-01-2026,Sneha,North,Keyboard,Electronics,1,2500,2500
+5,15-01-2026,Kiran,West,Chair,Furniture,2,8000,16000
+6,18-01-2026,Meena,West,Table,Furniture,1,15000,15000
+7,20-01-2026,Arjun,South,Laptop,Electronics,1,78000,78000
+8,25-01-2026,Divya,East,Chair,Furniture,1,4500,4500
+11,05-01-2026,Priya,South,Laptop,Electronics,1,7000,7000
+12,08-01-2026,Rahul,South,Mouse,Electronics,2,1400,2800
+13,10-01-2026,Amit,North,Laptop,Electronics,1,72000,72000
+14,12-01-2026,Sneha,North,Keyboard,Electronics,1,2400,2400
+15,15-01-2026,Kiran,West,Chair,Furniture,2,18000,36000
+16,18-01-2026,Meena,West,Table,Furniture,1,11000,11000
+17,20-01-2026,Arjun,South,Laptop,Electronics,1,79000,79000
+18,25-01-2026,Divya,East,Chair,Furniture,1,4800,4800
